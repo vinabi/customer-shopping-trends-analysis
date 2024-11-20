@@ -118,4 +118,4 @@ AVERAGE(ShoppingTrends[review_rating])
 These DAX formulas were essential in deriving insights and visualizations for the Power BI dashboard.
 
 
-### Let me know if you need further adjustments or additional formulas! 😊
+### Let me know if formulas need further adjustments improvements! :)
