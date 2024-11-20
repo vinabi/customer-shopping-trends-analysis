@@ -110,7 +110,6 @@ AVERAGE(ShoppingTrends[purchase_amountusd])
 
 ### Average Review Rating
 ```dax
-Copy code
 Average Review Rating = 
 AVERAGE(ShoppingTrends[review_rating])
 ```
