@@ -12,7 +12,7 @@ or above files, load the dataset into powerBI.
 
 ## 2. Data Cleaning & Preprocessing
 ### Step 1: Rename Table
-- Renamed the table to `Customer_Shopping_Trends` for clarity and consistency.
+- Renamed the table to `ShoppingTrends` for clarity and consistency.
 
 ### Step 2: Column Name Refinement
 - Standardized column names to be descriptive and consistent:
