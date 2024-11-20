@@ -66,10 +66,10 @@ Top 5 Countries =
 TOPN(
     5, 
     SUMMARIZE(
-        Customer_Shopping_Trends, 
-        Customer_Shopping_Trends[location], 
+        ShoppingTrends, 
+        ShoppingTrends[location], 
         "Total Purchase Amount", 
-        SUM(Customer_Shopping_Trends[purchase_amount_usd])
+        SUM(ShoppingTrends[purchase_amount(usd)])
     ), 
     [Total Purchase Amount], 
     DESC
@@ -90,8 +90,8 @@ Analyze the purchase trends across different seasons.
 ```dax
 Seasonal Trends = 
 CALCULATE(
-    SUM(Customer_Shopping_Trends[purchase_amount_usd]), 
-    ALLEXCEPT(Customer_Shopping_Trends, Customer_Shopping_Trends[season])
+    SUM(ShoppingTrends[purchase_amount(usd)]), 
+    ALLEXCEPT(ShoppingTrends, ShoppingTrends[season])
 )
 ```
 
@@ -99,13 +99,13 @@ CALCULATE(
 ### Total Sales
 ```dax
 Total Sales = 
-SUM(ShoppingTrends[purchase_amount_usd])
+SUM(ShoppingTrends[purchase_amount(usd)])
 ```
 
 ### Average Purchase Amount
 ```dax
 Average Purchase Amount = 
-AVERAGE(ShoppingTrends[purchase_amountusd])
+AVERAGE(ShoppingTrends[purchase_amount(usd)])
 ```
 
 ### Average Review Rating
