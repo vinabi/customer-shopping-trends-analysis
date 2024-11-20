@@ -1,4 +1,4 @@
-# Customer Shopping Trends Analysis 📊
+# Shopping Trends Analysis 📊
 
 A comprehensive analysis of customer shopping behavior and preferences using **Power BI**. This project provides actionable insights into customer demographics, product preferences, seasonal trends, and geographical purchasing behavior to aid in data-driven marketing strategies.
 
