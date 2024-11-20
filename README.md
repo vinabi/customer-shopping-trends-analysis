@@ -22,8 +22,7 @@ A comprehensive analysis of customer shopping behavior and preferences using **P
 - **Interactive Dashboard**:
   - Enable dynamic filtering by category, location, age, and gender.
   - Provide KPIs for total sales, average purchase amounts, and more.
-
----
+    
 
 ## 📂 Project Structure
 
@@ -39,8 +38,6 @@ A comprehensive analysis of customer shopping behavior and preferences using **P
 └── README.md                     # You're reading it!
 ```
 
-
----
 
 ## ⚡ Key Features
 
@@ -60,13 +57,12 @@ A comprehensive analysis of customer shopping behavior and preferences using **P
    - Dynamic slicers for deep data exploration.
    - KPI visuals for quick performance metrics.
 
----
-
 ## 📊 Dashboard Preview
 
 ![Dashboard Screenshot](dashboard_screenshot.png)
 
----
+
+
 
 ## Insights
 1. **Age Group Trends**: Customers aged 50+ have the highest purchase frequency.
@@ -74,7 +70,6 @@ A comprehensive analysis of customer shopping behavior and preferences using **P
 3. **Geographical Insights**: Some states outperform other ones in purchase amounts.
 4. **Shipping Preferences**: Express delivery is the most popular option in the top five countries.
 
----
 
 ## 🛠️ Tools & Skills
 
@@ -82,8 +77,7 @@ A comprehensive analysis of customer shopping behavior and preferences using **P
 - **DAX**: Advanced data analysis expressions for calculated columns and measures.
 - **Data Cleaning**: Column transformation, type adjustments, and filtering.
 - **Data Analysis**: Insights generation from diverse metrics.
-
----
+  
 
 ## 📥 Getting Started
 
@@ -91,5 +85,7 @@ A comprehensive analysis of customer shopping behavior and preferences using **P
 ```bash
 git clone https://github.com/vinabi/customer-shopping-trends-analysis.git
 
+```
 ---
-# 🌟 If you find this project helpful, don’t forget to star the repo! 🌟
+
+### 🌟 If you find this project helpful, don’t forget to star the repo! 🌟
